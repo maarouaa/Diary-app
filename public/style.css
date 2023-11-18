@@ -1,0 +1,243 @@
+body {
+    background-color: indianred;
+    font-family: Arial, sans-serif;
+    margin: 70px;
+}
+
+.title {
+    color: khaki;
+    text-align: center;
+    font-size: 30px;
+}
+
+.list ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.list #entitle{
+    font-size: 25px;
+    color: indianred;
+}
+
+.list #encontent{
+    font-size: 20px;
+    color: #B764BC ;
+}
+
+
+.list li {
+    background-color: khaki;
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 30px;
+}
+
+
+.list .delete #delete {
+    font-size: 14px;
+    background: #6C8CC0;
+    text-decoration: none;
+    color: khaki;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition: 0.3s;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+
+.list .delete #delete:hover {
+    background-color: khaki;
+    color: #6C8CC0;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+
+.list #edit a{
+    display: inline-block;
+    font-size: 16px;
+    background: #6C8CC0;
+    text-decoration: none;
+    text-align: center;
+    color: khaki;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition: 0.3s;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.list #edit a:hover {
+    background-color: khaki;
+    color: #6C8CC0;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.foot {
+    text-align: center;
+}
+
+.foot a{
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 25px;
+    background: #6DC79B;
+    text-decoration: none;
+    text-align: center;
+    color: khaki;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition: 0.3s;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.foot a:hover {
+    background-color: khaki;
+    color: #6DC79B;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type=text] {
+    background-color: khaki;
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 30px;
+    border: none;
+    color: #ac55b1;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    background-color: khaki;
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 30px;
+    border: none;
+    color: #ac55b1;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form label[for="title"]{
+    font-size: 25px;
+    font-weight: bold;
+    color: #6C8CC0;
+}
+
+.form label[for="content"]{
+    font-size: 25px;
+    font-weight: bold;
+    color: #6C8CC0;
+}
+
+.form #save{
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    display: inline-block;
+    background: #6C8CC0;
+    text-decoration: none;
+    text-align: center;
+    color: khaki;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition: 0.3s;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 14px;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form #save:hover {
+    background-color: khaki;
+    color: #6C8CC0;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.form #add{
+    box-shadow: 
+    2px 3px 10px rgb(197, 197, 149), 
+    5px 10px 20px rgb(197, 197, 149), 
+    6px 15px 30px 1px rgb(197, 197, 149);
+    border-radius: 4px;
+    display: inline-block;
+    background: #6C8CC0;
+    text-decoration: none;
+    text-align: center;
+    color: khaki;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition: 0.3s;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 14px;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form #add:hover {
+    background-color: khaki;
+    color: #6C8CC0;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 3px;
+}

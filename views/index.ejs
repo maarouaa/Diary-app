@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>My Diary</h1>
+    </div>
+    <div class="list">
+        <ul>
+            <% entries.forEach((entry, index) => { %>
+
+                <li>
+                    <strong id="entitle"><%= entry.title %></strong>
+                    <p id="encontent"><%= entry.content %></p>
+
+                    <div class="delete">
+                        <form action="/delete/<%= entry.id %>" method="post">
+                            <button id="delete"  type="submit">Delete</button>
+                        </form>
+                    </div>
+
+                    <div id="edit">
+                        <a href="/edit/<%= entry.id %>">Edit</a>
+                    </div>
+                    
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+    
+    <div class="foot">
+        <a href="/new">Add New Entry</a>
+    </div>
+    
+</body>
+</html>
